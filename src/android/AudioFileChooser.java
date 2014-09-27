@@ -25,6 +25,8 @@ import org.apache.cordova.PluginResult;
 import android.util.Log;
 import android.content.Intent;
 import android.app.Activity;
+import android.net.Uri;
+
 /**
  * This class provides access to vibration on the device.
  */
