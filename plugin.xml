@@ -23,7 +23,7 @@
     id="org.apache.cordova.audiofilepicker"
     version="0.3.8">
 
-    <name>Audio File Chooser</name>
+    <name>AudioFileChooser</name>
     <description>Cordova Audio File Chooser Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova, audio, file, chooser, selector</keywords>

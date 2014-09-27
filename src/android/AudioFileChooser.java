@@ -38,7 +38,6 @@ public class AudioFileChooser extends CordovaPlugin {
      * Constructor.
      */
     public AudioFileChooser() {
-    Log.d("customPlugin", " selectAudioFile ");
     }
 
     @Override
