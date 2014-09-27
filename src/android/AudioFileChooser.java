@@ -69,8 +69,7 @@ public class AudioFileChooser extends CordovaPlugin {
     	{
         	Uri selectedAudioUri = data.getData();
 						
-       	 	Log.d("customPlugin", "I picked this file " + uri);
-       	 	Log.d("customPlugin", "I picked this file" + title);
+       	 	Log.d("customPlugin", "I picked this file " + selectedAudioUri);
        	 	
         	if (uri != null)
         	{
