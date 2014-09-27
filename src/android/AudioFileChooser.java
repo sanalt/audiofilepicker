@@ -26,6 +26,8 @@ import android.util.Log;
 import android.content.Intent;
 import android.app.Activity;
 import android.net.Uri;
+import org.json.JSONArray;
+import org.json.JSONException;
 
 /**
  * This class provides access to vibration on the device.
