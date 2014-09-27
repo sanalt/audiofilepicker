@@ -71,7 +71,7 @@ public class AudioFileChooser extends CordovaPlugin {
 						
        	 	Log.d("customPlugin", "I picked this file " + selectedAudioUri);
        	 	
-        	if (uri != null)
+        	if (selectedAudioUri != null)
         	{
         		PluginResult pluginResult = new PluginResult(PluginResult.Status.OK, selectedAudioUri.toString());
         		pluginResult.setKeepCallback(true);
