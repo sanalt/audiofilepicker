@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package org.apache.cordova.audiofilechooser;
+package org.apache.cordova.audiofilepicker;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -33,6 +33,7 @@ import org.json.JSONException;
  * This class provides access to vibration on the device.
  */
 public class AudioFilePicker extends CordovaPlugin {
+	public String notification_uri;
 	private CallbackContext callbackContext = null;
     /**
      * Constructor.
@@ -81,5 +82,6 @@ public class AudioFilePicker extends CordovaPlugin {
         	}
     	}
 	}
+
 
 }

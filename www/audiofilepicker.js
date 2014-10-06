@@ -33,7 +33,7 @@ module.exports = {
      * @param {Integer} mills       The number of milliseconds to vibrate for.
      */
      
-    selectFile: function(successCallback, errorCallback) {
+    getRingtone: function(successCallback, errorCallback) {
         exec(successCallback, errorCallback, "AudioFilePicker", "selectAudioFile", []);
     },
 };

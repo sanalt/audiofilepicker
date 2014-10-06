@@ -23,12 +23,12 @@
     id="org.apache.cordova.audiofilepicker"
     version="0.3.8">
 
-    <name>AudioFileChooser</name>
-    <description>Cordova Audio File Chooser Plugin</description>
+    <name>AudioFilePicker</name>
+    <description>Cordova AudioFilePicker Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova, audio, file, chooser, selector</keywords>
+    <keywords>cordova, AudioFilePicker</keywords>
 
-    <js-module src="www/audiofilechooser.js" name="notification">
+    <js-module src="www/audiofilepicker.js" name="notification">
         <merges target="navigator.selectAudioFile" />
     </js-module>
 
@@ -36,11 +36,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AudioFilePicker">
-                <param name="android-package" value="org.apache.cordova.audiofilechooser.AudioFilePicker"/>
+                <param name="android-package" value="org.apache.cordova.audiofilepicker.AudioFilePicker"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/AudioFilePicker.java" target-dir="src/org/apache/cordova/audiofilechooser" />
+        <source-file src="src/android/AudioFilePicker.java" target-dir="src/org/apache/cordova/audiofilepicker" />
 
         <!--<config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.VIBRATE"/>
