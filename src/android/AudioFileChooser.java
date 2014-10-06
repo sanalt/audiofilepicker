@@ -32,12 +32,12 @@ import org.json.JSONException;
 /**
  * This class provides access to vibration on the device.
  */
-public class AudioFileChooser extends CordovaPlugin {
+public class AudioFilePicker extends CordovaPlugin {
 	private CallbackContext callbackContext = null;
     /**
      * Constructor.
      */
-    public AudioFileChooser() {
+    public AudioFilePicker() {
     }
 
     @Override
@@ -51,7 +51,7 @@ public class AudioFileChooser extends CordovaPlugin {
                     @Override
                     public void run() {
                     Intent intent = new Intent(Intent.ACTION_PICK ,android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI); 
-    	cordova.setActivityResultCallback(AudioFileChooser.this);
+    	cordova.setActivityResultCallback(AudioFilePicker.this);
     	cordova.getActivity().startActivityForResult(Intent.createChooser(intent, "Gallery"), 6);
                     }
                 };

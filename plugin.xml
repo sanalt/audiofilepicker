@@ -35,12 +35,12 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="AudioFileChooser">
-                <param name="android-package" value="org.apache.cordova.audiofilechooser.AudioFileChooser"/>
+            <feature name="AudioFilePicker">
+                <param name="android-package" value="org.apache.cordova.audiofilechooser.AudioFilePicker"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/AudioFileChooser.java" target-dir="src/org/apache/cordova/audiofilechooser" />
+        <source-file src="src/android/AudioFilePicker.java" target-dir="src/org/apache/cordova/audiofilechooser" />
 
         <!--<config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.VIBRATE"/>

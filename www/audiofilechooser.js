@@ -34,6 +34,6 @@ module.exports = {
      */
      
     selectFile: function(successCallback, errorCallback) {
-        exec(successCallback, errorCallback, "AudioFileChooser", "selectAudioFile", []);
+        exec(successCallback, errorCallback, "AudioFilePicker", "selectAudioFile", []);
     },
 };
